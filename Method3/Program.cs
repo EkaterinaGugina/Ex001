@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Method3 - метод, который не принимает аргументов и возвращает некоторый аргумент
+int Metod3() // не принимает никакие аргументы
+{
+return DateTime.Now.Year; // обязательное использование оператора return
+}
+int year = Metod3(); // вызываем метод, в левой части используем идентификатор переменной (year) и через оператор присваивания (=) кладём нужное значение
+Console.WriteLine(year);
